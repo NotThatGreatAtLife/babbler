@@ -21,7 +21,7 @@
 
 [Kernels]
   [diffusion]
-    type = ADDiffusion #laplacian operator
+    type = DarcyPressure #Zero-Gravity, divergence-free form of Darcy's law
     variable = pressure #this variable is defined above
   []
 []
