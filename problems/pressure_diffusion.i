@@ -23,6 +23,7 @@
   [diffusion]
     type = DarcyPressure #Zero-Gravity, divergence-free form of Darcy's law
     variable = pressure #this variable is defined above
+    permeability = 0.8451e-09 #(m^2) assumed permeability of the porus medium
   []
 []
 
